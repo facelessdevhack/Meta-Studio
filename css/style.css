@@ -2255,7 +2255,7 @@ a .blurtx .dummy2,
 }
 .about_access .block {
   position: relative;
-  margin-bottom: 220px;
+  margin-bottom: 20px;
 }
 .about_access .postcard.map {
   padding: 0;
@@ -2447,11 +2447,12 @@ a .blurtx .dummy2,
   position: relative;
   background: #fff;
   color: #111;
-  padding: 60px 60px 160px;
+  padding: 60px 60px 30px;
   width: 775px;
   box-sizing: border-box;
   margin-left: -60px;
   letter-spacing: 0.1em;
+  font-size: 16px;
 }
 .message_text .message_body h3 {
   margin-bottom: 1.5em;
@@ -2461,20 +2462,21 @@ a .blurtx .dummy2,
 }
 .page_message .message_img3 {
   position: absolute;
-  top: 0;
+  top: -140px;
   right: -60px;
   width: 300px;
   height: 700px;
-  background-image: url(../img/img_message_body3.jpg);
+  background-image: url(/images/img.jpg);
 }
 .page_message .message_img2 {
   position: absolute;
-  top: -240px;
-  left: 50%;
+  top: -340px;
+  left: 60%;
   margin-left: 40px;
-  width: 700px;
-  height: 440px;
-  background-image: url(../img/img_message_body2.jpg);
+  width: 414px;
+  height: 601px;
+  z-index: 1;
+  background-image: url(../images/img.jpg);
 }
 .page_message .message_img1 {
   position: relative;
@@ -2482,7 +2484,8 @@ a .blurtx .dummy2,
   top: 120px;
   width: 775px;
   height: 494px;
-  background-image: url(../img/img_message_body1.jpg);
+  z-index: 0;
+  background-image: url(../images/img2.jpg);
 }
 .page_message .pic_top .bgimg {
   background-image: url(../img/img_message_bg.jpg);
